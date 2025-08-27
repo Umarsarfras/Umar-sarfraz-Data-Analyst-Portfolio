@@ -1,25 +1,24 @@
-# 📊 Sales Performance Dashboard
+# 🎬 Netflix Movies & Shows EDA
 
 ## 📌 Project Overview
-Created an interactive **Sales Dashboard** to track revenue, profit, and customer trends.
+Performed exploratory data analysis (EDA) on the Netflix dataset to uncover trends in content.
 
 ## 📂 Dataset
-- Source: [Superstore Dataset](https://www.kaggle.com/datasets/vivek468/superstore-dataset-final)
+- Source: [Netflix Dataset](https://www.kaggle.com/datasets/shivamb/netflix-shows)
 
 ## 🛠 Tools Used
-- Power BI
-- Excel (for preprocessing)
+- Python (Pandas, Matplotlib, Seaborn, Jupyter Notebook)
 
 ## 🔎 Steps Taken
-1. Cleaned & transformed raw dataset.
-2. Built KPIs: Sales, Profit, Avg. Discount, Order Count.
-3. Created charts: Sales by Region, Profit by Category, Trend over Time.
-4. Added slicers for Year, Region, and Segment.
+1. Loaded and cleaned dataset.
+2. Analyzed distribution of movies vs. TV shows.
+3. Visualized content trends over years and genres.
+4. Identified top countries producing Netflix content.
 
 ## 📈 Key Insights
-- The **West region** generates the most profit.  
-- **Furniture** category has high sales but low profitability.  
-- Discounts above 20% reduce profitability significantly.
+- Majority of Netflix content added after 2015.  
+- **TV Shows** dominate over movies in recent years.  
+- US & India are leading producers of Netflix content.
 
-## 📸 Dashboard Screenshot
-![Dashboard](./screenshots/dashboard.png)
+## 📸 Sample Visualization
+![Netflix Chart](./charts/netflix_trends.png)
